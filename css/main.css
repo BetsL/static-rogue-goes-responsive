@@ -1,3 +1,6 @@
+/******** BASE STYLES ********/
+
+
 html	{
 		font-size: 16px;
 }
@@ -23,6 +26,10 @@ body	{
 		align-items: center;
 		flex-flow: row wrap;
 }
+
+
+/******** HEADER(S) ********/
+
 
 h1,
 h2,
@@ -55,7 +62,6 @@ ul	{
 		margin: 0;
 }
 
-/*The widths are in a percentage!*/
 header {
 		border-bottom: 3px solid #77a466;
 		text-align: center;
@@ -102,7 +108,10 @@ header nav ul li a{
 		color:#77a466;
 }
 
-/*The widths are in a percentage!*/
+
+/******** CONTENT ********/
+
+
 .top-section,
 .bottom-section {
 		display: flex;
@@ -174,14 +183,16 @@ header nav ul li a{
 */
 
 
-/*The widths are in a percentage!*/
+/******** FOOTER ********/
+
+
 footer {
 		border-top: 3px solid #eee;
 		text-align: center;
+		width: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 100%;
 		flex-flow: row wrap;
 }
 
@@ -191,3 +202,5 @@ footer span {
 		color: #77a466;
 		font-size: 0.875em;
 }
+
+/******** MEDIA QUERIES ********/
